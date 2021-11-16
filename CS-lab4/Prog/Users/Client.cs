@@ -14,7 +14,7 @@ namespace CS_lab4 {
             data = null;
         }
 
-        public Client(uint _userID, string _name, uint _assignedDoctor, PatientData _data) : base(_userID, _name) {//base викликає конструктор базового класу
+        public Client(uint _userID, string _name, uint _assignedDoctor, PatientData _data) : base(_userID, _name) {
             assignedDoctor = _assignedDoctor;
             data = _data;
         }
@@ -23,7 +23,6 @@ namespace CS_lab4 {
             return $"id-{userID} : {name}. Assigned to {assignedDoctor}. {data.ToString()}";
         }
 
-        //При перевантаженні неявного перетворення використовується implicit, а при явному explicit.
         public static explicit operator int(Client obj) => (int)obj.userID;
         public static explicit operator string(Client obj) => obj.name;
     }

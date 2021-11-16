@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace CS_lab4 {
 
-    public enum BLOOD_TYPE //enum конвертується в int при & або | або ^
-    {
+    public enum BLOOD_TYPE {
         Group_O,
         Group_A,
         Group_B,
@@ -15,9 +14,7 @@ namespace CS_lab4 {
         UNSET
     }
 
-    public class PatientData
-    { //модифікатор public
-
+    public class PatientData {
         public BLOOD_TYPE bloodType { get; set; }
         public string location { get; set; }
         public List<AnalisisResult> analisisHistory { get; set; }

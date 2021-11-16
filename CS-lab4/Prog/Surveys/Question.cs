@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CS_lab4 {
-    internal class Question {//модифікатор internal (за замовчуванням)
+    internal class Question {
         public long questionID;
         public string textQuestion;
         public long clientID;
@@ -27,19 +27,14 @@ namespace CS_lab4 {
             this.timeEnd = timeEnd;
         }
 
-        public void Answer(ref string answer)//передається по ref
-        {
-            if ((answer == "cum" & answer == "pot") | answer == "CUMpot")
-            {
+        public void Answer(ref string answer) {
                 this.answer = answer;
-            }
         }
 
         public override string ToString() {
             return $"Client: {clientID}, doctor: {doctorID}, question: {textQuestion}, answer: {answer}";
         }
 
-        //При перевантаженні неявного перетворення використовується implicit, а при явному explicit.
         public static implicit operator Question(int a) => QuestionMock.questionList[a];
         public static explicit operator int(Question a) => (int)a.questionID;
     }

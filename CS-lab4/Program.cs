@@ -4,27 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CS_lab4
-{
-    //ref використовується при передачі параметрів у функцію і означає, що значення передається не по значенню, а по силці(пишеться і в параметрах функції, і при виклику).
-    //out працює аналогічно до ref, але вимагає ініціалізації змінної в функції.
-    //in працює протилежно до out, тобто забороняє ініціалізацію змінної в функції.
-
-    class Program
-    {
-        static void Main(string[] args)
-        {
+namespace CS_lab4 {
+    class Program {
+        static void Main(string[] args) {
             var userList = UserMock.usersList;
             var questionList = QuestionMock.questionList;
 
             SurveyEditor editor = new SurveyEditor();
 
-            Survey survey = editor.CreateSurvey(userList[3].userID, userList[0].userID, "Cummer", int.MaxValue);
+            Survey survey = editor.CreateSurvey(userList[3].userID, userList[0].userID, "Survey_v1", int.MaxValue);
             survey.questionList = questionList;
-            foreach (var question in survey.questionList)
-            {
-                string answer = "CUMpot";
-                question.Answer(ref answer);//передається ref
+            foreach (var question in survey.questionList) {
+                string answer = "ansv";
+                question.Answer(ref answer);
             }
 
             Console.WriteLine("Enter number of question:");
@@ -35,14 +27,12 @@ namespace CS_lab4
             editor.ChangeQuestion(survey, questionList);
 
             Console.WriteLine("\nAll questions in survey:");
-            foreach (var question in survey.questionList)
-            {
+            foreach (var question in survey.questionList) {
                 Console.WriteLine(question);
             }
 
             Console.WriteLine("\nAll users in mock:");
-            foreach (var user in userList)
-            {
+            foreach (var user in userList) {
                 Console.WriteLine(user);
             }
         }

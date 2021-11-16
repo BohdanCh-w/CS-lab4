@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CS_lab4 {
-    public class AnalisisResult {//модифікатор public
+    public class AnalisisResult {
         public uint analisisID { get; set; }
         public double temparature { get; set; }
         public string bloodTest { get; set; }
@@ -35,13 +35,6 @@ namespace CS_lab4 {
             }
             return ret;
         }
-        // public static string getParameter(this AnalisisResult res, string param) {
-        //     if ( res.other == null ) { return null; }
-        //     if (res.other.ContainsKey(param)) {
-        //         return res.other[param];
-        //     }
-        //     return null;
-        // }
     }
 }
 

@@ -5,3 +5,10 @@ C:\Users\dutch\source\repos\CS-lab4\CS-lab4\bin\Debug\CS-lab4.exe
 C:\Users\dutch\source\repos\CS-lab4\CS-lab4\bin\Debug\CS-lab4.pdb
 C:\Users\dutch\source\repos\CS-lab4\CS-lab4\obj\Debug\CS-lab4.exe
 C:\Users\dutch\source\repos\CS-lab4\CS-lab4\obj\Debug\CS-lab4.pdb
+G:\Bohdan-G\.univer\5semestr\CS\.lab\CS-lab4\CS-lab4\obj\Debug\CS-lab4.csproj.AssemblyReference.cache
+G:\Bohdan-G\.univer\5semestr\CS\.lab\CS-lab4\CS-lab4\obj\Debug\CS-lab4.csproj.CoreCompileInputs.cache
+G:\Bohdan-G\.univer\5semestr\CS\.lab\CS-lab4\CS-lab4\obj\Debug\CS-lab4.exe
+G:\Bohdan-G\.univer\5semestr\CS\.lab\CS-lab4\CS-lab4\obj\Debug\CS-lab4.pdb
+G:\Bohdan-G\.univer\5semestr\CS\.lab\CS-lab4\CS-lab4\bin\Debug\CS-lab4.exe.config
+G:\Bohdan-G\.univer\5semestr\CS\.lab\CS-lab4\CS-lab4\bin\Debug\CS-lab4.exe
+G:\Bohdan-G\.univer\5semestr\CS\.lab\CS-lab4\CS-lab4\bin\Debug\CS-lab4.pdb
