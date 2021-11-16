@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CS_lab4 {
 
-    public enum BLOOD_TYPE
+    public enum BLOOD_TYPE //enum конвертується в int при & або | або ^
     {
         Group_O,
         Group_A,
@@ -33,7 +33,6 @@ namespace CS_lab4 {
             analisisHistory = _analisisHistory;
         }
 
-        
         public override string ToString() {
             return $"Blood type {bloodType}, location {location}, {analisisHistory.Count} analises.";
         }

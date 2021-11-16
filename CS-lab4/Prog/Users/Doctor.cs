@@ -20,6 +20,7 @@ namespace CS_lab4 {
             return $"id-{userID} : {name}. Specialisation - {specialisation}";
         }
 
+        //При перевантаженні неявного перетворення використовується implicit, а при явному explicit.
         public static explicit operator int(Doctor obj) => (int)obj.userID;
         public static explicit operator string(Doctor obj) => obj.name;
     }

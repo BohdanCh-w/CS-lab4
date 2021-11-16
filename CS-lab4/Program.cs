@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace CS_lab4
 {
+    //ref використовується при передачі параметрів у функцію і означає, що значення передається не по значенню, а по силці(пишеться і в параметрах функції, і при виклику).
+    //out працює аналогічно до ref, але вимагає ініціалізації змінної в функції.
+    //in працює протилежно до out, тобто забороняє ініціалізацію змінної в функції.
+
     class Program
     {
         static void Main(string[] args)
@@ -17,6 +21,11 @@ namespace CS_lab4
 
             Survey survey = editor.CreateSurvey(userList[3].userID, userList[0].userID, "Cummer", int.MaxValue);
             survey.questionList = questionList;
+            foreach (var question in survey.questionList)
+            {
+                string answer = "CUMpot";
+                question.Answer(ref answer);//передається ref
+            }
 
             Console.WriteLine("Enter number of question:");
             int.TryParse(Console.ReadLine(), out int questionNumber);
@@ -25,8 +34,8 @@ namespace CS_lab4
 
             editor.ChangeQuestion(survey, questionList);
 
-            Console.WriteLine("All questions in mock:");
-            foreach (var question in questionList)
+            Console.WriteLine("\nAll questions in survey:");
+            foreach (var question in survey.questionList)
             {
                 Console.WriteLine(question);
             }

@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace CS_lab4
 {
-    class SurveyEditor : ISurveyEditor {
-        static SurveyEditor editor { get; }
-        public static SurveyEditor surveyEditor {
+    class SurveyEditor : ISurveyEditor
+    {
+        private static SurveyEditor editor;
+
+        public static SurveyEditor surveyEditor {//в мене написано в звіті все про static конструктор та поля
             get { return editor ?? new SurveyEditor(); }
         }
 
@@ -18,8 +20,8 @@ namespace CS_lab4
 
         public Survey CreateSurvey(long clientID, long doctorID, string diseaseName, int diseaseLevel) {
             Survey survey = new Survey(clientID, doctorID);
-            object temp = diseaseLevel;
-            survey.SetDisease(diseaseName, (int)temp);
+            object temp = diseaseLevel;//boxing приведення зі структури в клас = хуйово
+            survey.SetDisease(diseaseName, (int)temp);//unboxing приведення зі класу в структуру, тоже хуйово
             return survey;
         }
 
