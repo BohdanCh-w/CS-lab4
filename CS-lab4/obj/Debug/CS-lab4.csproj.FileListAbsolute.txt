@@ -1,0 +1,7 @@
+C:\Users\dutch\source\repos\CS-lab4\CS-lab4\obj\Debug\CS-lab4.csproj.AssemblyReference.cache
+C:\Users\dutch\source\repos\CS-lab4\CS-lab4\obj\Debug\CS-lab4.csproj.CoreCompileInputs.cache
+C:\Users\dutch\source\repos\CS-lab4\CS-lab4\bin\Debug\CS-lab4.exe.config
+C:\Users\dutch\source\repos\CS-lab4\CS-lab4\bin\Debug\CS-lab4.exe
+C:\Users\dutch\source\repos\CS-lab4\CS-lab4\bin\Debug\CS-lab4.pdb
+C:\Users\dutch\source\repos\CS-lab4\CS-lab4\obj\Debug\CS-lab4.exe
+C:\Users\dutch\source\repos\CS-lab4\CS-lab4\obj\Debug\CS-lab4.pdb

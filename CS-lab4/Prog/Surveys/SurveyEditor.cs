@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CS_lab4
 {
-    internal class SurveyEditor : ISurveyEditor {
+    class SurveyEditor : ISurveyEditor {
         static SurveyEditor editor { get; }
         public static SurveyEditor surveyEditor {
             get { return editor ?? new SurveyEditor(); }

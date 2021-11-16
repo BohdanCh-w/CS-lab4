@@ -9,15 +9,12 @@ namespace CS_lab4 {
         public List<Question> questionList { get; set; }
         public long clientID { get; set; }
         public long doctorID { get; set; }
-        private Disease disease { get; set; }
-        class Disease {
+        public string answer { get; set; }
+        Disease disease { get; set; }//private
+        class Disease {//private, не можна створити екземпляр поза класом Survey, бо модифікатор private
+            //клас Survey не має доступу до полів Disease і навпаки
             public string diseaseName { get; set; }
-            private int diseaseLevel;
-            public int DiseaseLevel
-            {
-                get { return diseaseLevel; }
-                set { diseaseLevel = value; }
-            }
+            public int DiseaseLevel { get; set; }
         }
 
         public Survey(long clientID, long doctorID) {
@@ -30,6 +27,11 @@ namespace CS_lab4 {
             Disease disease = new Disease();
             disease.diseaseName = diseaseName;
             disease.DiseaseLevel = diseaseLevel;
+        }
+
+        public void Answer(string answer)
+        {
+
         }
     }
 }

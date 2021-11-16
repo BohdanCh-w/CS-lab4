@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CS_lab4 {
-    internal class Question {
+    internal class Question {//модифікатор internal (за замовчуванням)
         public long questionID;
         public string textQuestion;
         public long clientID;
@@ -30,7 +30,7 @@ namespace CS_lab4 {
             return $"Client: {clientID}, doctor: {doctorID}, question: {textQuestion}";
         }
 
-        public static implicit operator Question(int a) => new QuestionMock().questionList[a];
+        public static implicit operator Question(int a) => QuestionMock.questionList[a];
         public static explicit operator int(Question a) => (int)a.questionID;
     }
 }

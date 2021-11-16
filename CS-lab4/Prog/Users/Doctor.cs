@@ -12,12 +12,15 @@ namespace CS_lab4 {
             specialisation = "";
         }
 
-        public Doctor(User _baseUser, string _specialisation) : base(_baseUser) {
+        public Doctor(uint _userID, string _name, string _specialisation) : base(_userID, _name) {
             specialisation = _specialisation;
         }
 
         public override string ToString() {
-            return String.Format("id-{0} : {1}. Specialisation - {2}", userID, name, specialisation);
+            return $"id-{userID} : {name}. Specialisation - {specialisation}";
         }
+
+        public static explicit operator int(Doctor obj) => (int)obj.userID;
+        public static explicit operator string(Doctor obj) => obj.name;
     }
 }

@@ -14,13 +14,16 @@ namespace CS_lab4 {
             data = null;
         }
 
-        public Client(User _baseUser, uint _assignedDoctor, PatientData _data) : base(_baseUser) {
+        public Client(uint _userID, string _name, uint _assignedDoctor, PatientData _data) : base(_userID, _name) {
             assignedDoctor = _assignedDoctor;
             data = _data;
         }
 
         public override string ToString() {
-            return String.Format("id-{0} : {1}. Assigned to {2}. {3}", userID, name, assignedDoctor, data.ToString());
+            return $"id-{userID} : {name}. Assigned to {assignedDoctor}. {data.ToString()}";
         }
+
+        public static explicit operator int(Client obj) => (int)obj.userID;
+        public static explicit operator string(Client obj) => obj.name;
     }
 }

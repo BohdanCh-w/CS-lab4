@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Prog\Mocks\QuestionMock.cs" />
+    <Compile Include="Prog\Mocks\UserMock.cs" />
     <Compile Include="Prog\Users\AnalisisResult.cs" />
     <Compile Include="Prog\Users\Client.cs" />
     <Compile Include="Prog\Users\Doctor.cs" />
@@ -57,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Medical_service.cd" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
