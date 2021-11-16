@@ -4,24 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CS_lab4_Struct
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
+namespace CS_lab4_Struct {
+    class Program {
+        static void Main(string[] args) {
             var doctorList = UserMock.doctorList;
             var clientList = UserMock.clientList;
             var questionList = QuestionMock.questionList;
 
             SurveyEditor editor = new SurveyEditor();
 
-            Survey survey = editor.CreateSurvey(clientList[0].userID, doctorList[0].userID, "Cummer", int.MaxValue);
+            Survey survey = editor.CreateSurvey(clientList[0].userID, doctorList[0].userID, "Survey_v2", int.MaxValue);
             survey.questionList = questionList;
-            foreach (var question in survey.questionList)
-            {
-                string answer = "CUMpot";
-                question.Answer(ref answer);//передається ref
+            foreach (var question in survey.questionList) {
+                string answer = "ansv";
+                question.Answer(ref answer);
             }
 
             Console.WriteLine("Enter number of question:");
@@ -32,20 +28,17 @@ namespace CS_lab4_Struct
             editor.ChangeQuestion(survey, questionList);
 
             Console.WriteLine("\nAll questions in survey:");
-            foreach (var question in survey.questionList)
-            {
+            foreach (var question in survey.questionList) {
                 Console.WriteLine(question);
             }
 
             Console.WriteLine("\nAll doctors in mock:");
-            foreach (var doctor in doctorList)
-            {
+            foreach (var doctor in doctorList) {
                 Console.WriteLine(doctor);
             }
 
             Console.WriteLine("\nAll clients in mock:");
-            foreach (var client in clientList)
-            {
+            foreach (var client in clientList) {
                 Console.WriteLine(client);
             }
         }

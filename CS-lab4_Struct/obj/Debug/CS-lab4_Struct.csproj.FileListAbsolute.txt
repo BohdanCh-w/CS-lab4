@@ -5,3 +5,10 @@ C:\Users\dutch\source\repos\CS-lab4\CS-lab4_Struct\bin\Debug\CS-lab4_Struct.exe
 C:\Users\dutch\source\repos\CS-lab4\CS-lab4_Struct\bin\Debug\CS-lab4_Struct.pdb
 C:\Users\dutch\source\repos\CS-lab4\CS-lab4_Struct\obj\Debug\CS-lab4_Struct.exe
 C:\Users\dutch\source\repos\CS-lab4\CS-lab4_Struct\obj\Debug\CS-lab4_Struct.pdb
+G:\Bohdan-G\.univer\5semestr\CS\.lab\CS-lab4\CS-lab4_Struct\obj\Debug\CS-lab4_Struct.csproj.AssemblyReference.cache
+G:\Bohdan-G\.univer\5semestr\CS\.lab\CS-lab4\CS-lab4_Struct\obj\Debug\CS-lab4_Struct.csproj.CoreCompileInputs.cache
+G:\Bohdan-G\.univer\5semestr\CS\.lab\CS-lab4\CS-lab4_Struct\obj\Debug\CS-lab4_Struct.exe
+G:\Bohdan-G\.univer\5semestr\CS\.lab\CS-lab4\CS-lab4_Struct\obj\Debug\CS-lab4_Struct.pdb
+G:\Bohdan-G\.univer\5semestr\CS\.lab\CS-lab4\CS-lab4_Struct\bin\Debug\CS-lab4_Struct.exe.config
+G:\Bohdan-G\.univer\5semestr\CS\.lab\CS-lab4\CS-lab4_Struct\bin\Debug\CS-lab4_Struct.exe
+G:\Bohdan-G\.univer\5semestr\CS\.lab\CS-lab4\CS-lab4_Struct\bin\Debug\CS-lab4_Struct.pdb

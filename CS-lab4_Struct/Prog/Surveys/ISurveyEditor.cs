@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CS_lab4_Struct
-{
-    internal interface ISurveyEditor
-    {//модифікатор internal(за замовчуванням)
-        Survey CreateSurvey(long clientID, long doctorID, string diseaseName, int diseaseLevel);//public, навіть явно вказати не можна
+namespace CS_lab4_Struct {
+    internal interface ISurveyEditor {
+        Survey CreateSurvey(long clientID, long doctorID, string diseaseName, int diseaseLevel);
 
-        void ChangeQuestion(Survey survey, List<Question> questionList);//public, навіть явно вказати не можна
+        void ChangeQuestion(Survey survey, List<Question> questionList);
     }
 }
