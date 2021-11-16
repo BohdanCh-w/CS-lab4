@@ -3,7 +3,7 @@
   <Class Name="CS_lab4.User" Collapsed="true">
     <Position X="3" Y="1.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAgAAAAAAAAAQEiAQAAAAAAAAEAKAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAgAAAAAAAAAQAiAQAAAAAAAAEAKAAAAAAAAAAAAA=</HashCode>
       <FileName>Prog\Users\User.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -18,14 +18,14 @@
   <Class Name="CS_lab4.Doctor" Collapsed="true">
     <Position X="1.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <HashCode>AAAAgAAAAAAAAAAEAAQAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
       <FileName>Prog\Users\Doctor.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="CS_lab4.Client" Collapsed="true">
     <Position X="4" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <HashCode>AAAAgAAAAAAAAAAEEAQAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
       <FileName>Prog\Users\Client.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -54,18 +54,18 @@
   <Class Name="CS_lab4.Question" Collapsed="true">
     <Position X="9" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAgAIAAAAAAAgEAAAAAAAAAAAEAAAAAABAAgAEACA=</HashCode>
+      <HashCode>AAAAgAIAAAAAAAgEAAAAAAAAAAAEAAAAAABAAgAEACI=</HashCode>
       <FileName>Prog\Surveys\Question.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="CS_lab4.Prog.Surveys.UserMock" Collapsed="true">
+  <Class Name="CS_lab4.UserMock" Collapsed="true">
     <Position X="1.75" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAACAAAgAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Prog\Mocks\UserMock.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="CS_lab4.Mocks.QuestionMock" Collapsed="true">
+  <Class Name="CS_lab4.QuestionMock" Collapsed="true">
     <Position X="4" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA=</HashCode>

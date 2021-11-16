@@ -1,0 +1,7 @@
+C:\Users\dutch\source\repos\CS-lab4\CS-lab4_Struct\obj\Debug\CS-lab4_Struct.csproj.AssemblyReference.cache
+C:\Users\dutch\source\repos\CS-lab4\CS-lab4_Struct\obj\Debug\CS-lab4_Struct.csproj.CoreCompileInputs.cache
+C:\Users\dutch\source\repos\CS-lab4\CS-lab4_Struct\bin\Debug\CS-lab4_Struct.exe.config
+C:\Users\dutch\source\repos\CS-lab4\CS-lab4_Struct\bin\Debug\CS-lab4_Struct.exe
+C:\Users\dutch\source\repos\CS-lab4\CS-lab4_Struct\bin\Debug\CS-lab4_Struct.pdb
+C:\Users\dutch\source\repos\CS-lab4\CS-lab4_Struct\obj\Debug\CS-lab4_Struct.exe
+C:\Users\dutch\source\repos\CS-lab4\CS-lab4_Struct\obj\Debug\CS-lab4_Struct.pdb
