@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Class Name="CS_lab4.User" Collapsed="true">
+    <Position X="3" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAQAiAQAAAAAAAAEAKAAAAAAAAAAAAA=</HashCode>
+      <FileName>Prog\Users\User.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CS_lab4.PatientData" Collapsed="true">
+    <Position X="9" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAACAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Prog\Users\PatientData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CS_lab4.Doctor" Collapsed="true">
+    <Position X="1.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAEAAQAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Prog\Users\Doctor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CS_lab4.Client" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAEEAQAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Prog\Users\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CS_lab4.AnalisisResult" Collapsed="true">
+    <Position X="6.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAABEAAAAAAAAAAAAAAAACAAAAAQAAAA=</HashCode>
+      <FileName>Prog\Users\AnalisisResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CS_lab4.SurveyEditor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAQAAAAICAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Prog\Surveys\SurveyEditor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.217" Collapsed="true" />
+  </Class>
+  <Class Name="CS_lab4.Survey" Collapsed="true">
+    <Position X="9" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAYAAAAAAAAAAAAAAAAAAAQAAAAABAAAAgAAAAA=</HashCode>
+      <FileName>Prog\Surveys\Survey.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CS_lab4.Question" Collapsed="true">
+    <Position X="9" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAIAAAAAAAgEAAAAAAAAAAAEAAAAAABAAgAEACI=</HashCode>
+      <FileName>Prog\Surveys\Question.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CS_lab4.UserMock" Collapsed="true">
+    <Position X="1.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAgAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Prog\Mocks\UserMock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CS_lab4.QuestionMock" Collapsed="true">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Prog\Mocks\QuestionMock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="CS_lab4.ISurveyEditor" Collapsed="true">
+    <Position X="6.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Prog\Surveys\ISurveyEditor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="CS_lab4.BLOOD_TYPE" Collapsed="true">
+    <Position X="10.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAEBAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Prog\Users\PatientData.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

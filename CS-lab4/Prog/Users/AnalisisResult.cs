@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CS_lab4 {
-    class AnalisisResult {
+    public class AnalisisResult {
         public uint analisisID { get; set; }
         public double temparature { get; set; }
         public string bloodTest { get; set; }
@@ -26,8 +26,8 @@ namespace CS_lab4 {
         }
         
         public override string ToString() {
-            int count = other != null ? other.Count : 0;
-            var ret = String.Format("id - {0} : {1}*C, bloodTest - {2}, other - {3}. ", analisisID, temparature, bloodTest, count);
+            int count = other?.Count ?? 0;
+            var ret = $"id - {analisisID} : {temparature}*C, bloodTest - {bloodTest}, other - {count}. ";
             if (count > 0) {
                 foreach(var pair in other) {
                     ret += pair.ToString();
@@ -35,13 +35,6 @@ namespace CS_lab4 {
             }
             return ret;
         }
-        // public static string getParameter(this AnalisisResult res, string param) {
-        //     if ( res.other == null ) { return null; }
-        //     if (res.other.ContainsKey(param)) {
-        //         return res.other[param];
-        //     }
-        //     return null;
-        // }
     }
 }
 

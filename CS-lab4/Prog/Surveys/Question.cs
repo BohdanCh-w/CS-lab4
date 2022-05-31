@@ -10,6 +10,7 @@ namespace CS_lab4 {
         public string textQuestion;
         public long clientID;
         public long doctorID;
+        public string answer { get; set; }
         public DateTime timeStart { get; set; }
         public DateTime timeEnd { get; set; }
 
@@ -26,11 +27,15 @@ namespace CS_lab4 {
             this.timeEnd = timeEnd;
         }
 
-        public override string ToString() {
-            return $"Client: {clientID}, doctor: {doctorID}, question: {textQuestion}";
+        public void Answer(ref string answer) {
+                this.answer = answer;
         }
 
-        public static implicit operator Question(int a) => new QuestionMock().questionList[a];
+        public override string ToString() {
+            return $"Client: {clientID}, doctor: {doctorID}, question: {textQuestion}, answer: {answer}";
+        }
+
+        public static implicit operator Question(int a) => QuestionMock.questionList[a];
         public static explicit operator int(Question a) => (int)a.questionID;
     }
 }

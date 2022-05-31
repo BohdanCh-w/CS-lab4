@@ -9,15 +9,10 @@ namespace CS_lab4 {
         public List<Question> questionList { get; set; }
         public long clientID { get; set; }
         public long doctorID { get; set; }
-        private Disease disease { get; set; }
+        Disease disease { get; set; }
         class Disease {
             public string diseaseName { get; set; }
-            private int diseaseLevel;
-            public int DiseaseLevel
-            {
-                get { return diseaseLevel; }
-                set { diseaseLevel = value; }
-            }
+            public int DiseaseLevel { get; set; }
         }
 
         public Survey(long clientID, long doctorID) {
@@ -26,7 +21,7 @@ namespace CS_lab4 {
             this.doctorID = doctorID;
         }
 
-        public void SetDisease(string diseaseName, int diseaseLevel) {
+        public void SetDisease(in string diseaseName, in int diseaseLevel) {
             Disease disease = new Disease();
             disease.diseaseName = diseaseName;
             disease.DiseaseLevel = diseaseLevel;

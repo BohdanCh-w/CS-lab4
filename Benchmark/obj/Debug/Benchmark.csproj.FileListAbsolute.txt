@@ -1,0 +1,14 @@
+C:\Users\dutch\source\repos\CS-lab4\Benchmark\obj\Debug\Benchmark.csproj.AssemblyReference.cache
+C:\Users\dutch\source\repos\CS-lab4\Benchmark\obj\Debug\Benchmark.csproj.CoreCompileInputs.cache
+C:\Users\dutch\source\repos\CS-lab4\Benchmark\bin\Debug\Benchmark.exe.config
+C:\Users\dutch\source\repos\CS-lab4\Benchmark\bin\Debug\Benchmark.exe
+C:\Users\dutch\source\repos\CS-lab4\Benchmark\bin\Debug\Benchmark.pdb
+C:\Users\dutch\source\repos\CS-lab4\Benchmark\obj\Debug\Benchmark.exe
+C:\Users\dutch\source\repos\CS-lab4\Benchmark\obj\Debug\Benchmark.pdb
+G:\Bohdan-G\.univer\5semestr\CS\.lab\CS-lab4\Benchmark\bin\Debug\Benchmark.exe.config
+G:\Bohdan-G\.univer\5semestr\CS\.lab\CS-lab4\Benchmark\bin\Debug\Benchmark.exe
+G:\Bohdan-G\.univer\5semestr\CS\.lab\CS-lab4\Benchmark\bin\Debug\Benchmark.pdb
+G:\Bohdan-G\.univer\5semestr\CS\.lab\CS-lab4\Benchmark\obj\Debug\Benchmark.csproj.AssemblyReference.cache
+G:\Bohdan-G\.univer\5semestr\CS\.lab\CS-lab4\Benchmark\obj\Debug\Benchmark.csproj.CoreCompileInputs.cache
+G:\Bohdan-G\.univer\5semestr\CS\.lab\CS-lab4\Benchmark\obj\Debug\Benchmark.exe
+G:\Bohdan-G\.univer\5semestr\CS\.lab\CS-lab4\Benchmark\obj\Debug\Benchmark.pdb
